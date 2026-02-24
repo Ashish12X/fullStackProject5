@@ -51,8 +51,7 @@ function App() {
 
   return (
     <div className="">
-      <Header cartCount={cart.length}/>
-      <ProductList products={products} addToCart={addToCart}/>
+      <Header cartCount={cart.length} products={products} addToCart={addToCart}/>
       <Cart cart={cart} removeFromCart={removeFromCart} totalAmount={totalAmount}/>
     </div>
   )
