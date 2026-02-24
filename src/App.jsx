@@ -5,6 +5,7 @@ import ProductList from './components/ProductList';
 
 function App() {
   const [cart, setCart] = useState([]);
+  // Product Array of Object
   const products=[
     {
       id:1,
